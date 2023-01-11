@@ -1,0 +1,61 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 100%;
+    background-color: var(--primary-very-dark);
+    font-size: 15px;
+}
+
+.main .section{
+    display: flex;
+    width: 1110px;
+    height: 446px;
+    border-radius: 6px;
+    background-color: var(--primary-desatured);
+}
+
+.main .section .info{
+    align-self: center;
+    margin: 70px;
+    font-family: 'Inter', sans-serif;color: #fff;
+    font-weight: 300;
+}
+
+.main .section .info .featured-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.main .section .info .featured-title span{
+    color: var(--primary-soft);
+}
+
+.main .section .info .text{
+    color: var(--neutral-slightly);
+    line-height: 26px;
+    margin: 0 60px 80px 0;
+}
+
+.main .section .info .comp-temp-quer{
+    display: flex;
+    gap: 50px;
+}
+
+.main .section .info .comp-temp-quer .comp .value-comp, .value-temp, .value-quer{
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.main .section .info .comp-temp-quer .name-comp, .name-temp, .name-quer{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--neutral-slightly);
+}
+
+.main .section .img img{
+    border-radius: 0 6px 6px 0;
+}
